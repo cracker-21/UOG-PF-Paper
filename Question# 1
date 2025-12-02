@@ -1,0 +1,5 @@
+Question# 1: Find errors and outputs.
+1) End of Program
+2) Error occur because of if statement has multiple lines and no braces.
+3) 1222
+4) Error occured because we cant assign res to a+b. like (a+b=res);
