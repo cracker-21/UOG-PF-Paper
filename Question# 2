@@ -1,0 +1,4 @@
+Define the following:
+1) Header files: A header file is a file that contains declarations of functions, macros, constants, and structures so they can be used in different program files by including the header files and we didn't need to define them again and again in programs.
+2) Source code: Source code is the set of instructions written by a programmer in high level programming language that a computer cannot directly understand until it is compiled or interpreted to convert it into object code or low level language.
+3) Comments: Comments are notes written inside a program that the computer ignores during compilation or execution. They are only for humans to understand the code. It makes code easier for other developers to understand.
