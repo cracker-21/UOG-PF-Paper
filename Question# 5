@@ -1,0 +1,30 @@
+Write a program that took 10 numbers and display their sum, min and max number?
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int sum,min,max;
+	int arr[10];
+	cout<<"Enter 10 values: "<<endl;
+	for(int i=0;i<10;i++)
+	{
+		cin>>arr[i];
+	}
+	min=max=arr[0];
+	for(int i=0;i<10;i++)
+	{
+		sum+=arr[i];
+		if(min>arr[i])
+		{
+			min=arr[i];
+		}
+		if(max<arr[i])
+		{
+			max=arr[i];
+		}
+	}
+	cout<<"Sum is: "<<sum<<endl;
+	cout<<"Min is: "<<min<<endl;
+	cout<<"Max is: "<<max<<endl;
+}
