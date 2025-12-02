@@ -1,0 +1,15 @@
+Write a program that read height in inches and convert it into feet and inches.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int inches;
+	int feet;
+	cout<<"Enter height in inches: ";
+	cin>>inches;
+	feet=(inches/12);
+	inches=inches%12;
+	cout<<"Height in feet & inches..."<<endl;
+	cout<<feet<<" feet"<<" and "<<inches<<" inches."<<endl;
+}
