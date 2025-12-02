@@ -1,4 +1,4 @@
-Write a program that read height in inches and convert it into feet and inches.
+Write a program that read height in inches and convert it into feet and inches?
 
 #include<iostream>
 using namespace std;
